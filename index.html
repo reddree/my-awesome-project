@@ -1,56 +1,155 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee</title>
 </head>
-
 <body>
-    <header>
-        <div>
-            <h1>МойСайт</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Главная</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#services">Услуги</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<nav>
+<div class="logo">
+<img src="assets/img/LOGO.png" alt="Revo Coffee Logo">
+</div>
+<ul>
+<li><a href="#hero">ГЛАВНАЯ</a></li>
+<li><a href="#flavors">ВАШ КОФЕ</a></li>
+<li><a href="#giftset">ПЕРСОНАЛЬНЫЙ КОФЕ</a></li>
+<li><a href="#contact">КОНТАКТЫ</a></li>
+</ul>
+</nav>
+</header>
 
-    <main>
-        <section id="home">
-            <h2>Добро пожаловать!</h2>
-            <p>Это главная страница нашего веб-приложения.</p>
-        </section>
+<main>
+<section class="base-section">
+<h2>КОФЕ СТРОИТ ВАШУ ОСНОВУ</h2>
+<h3>Ваш индивидуальный кофе</h3>
 
-        <section id="about">
-            <h2>О нас</h2>
-            <p>Мы компания, которая занимается созданием качественных веб-решений.</p>
-        </section>
+<div class="flex-container">
+<div class="flex-item">
+<img src="assets/icons/mountain.png" alt="Coffee Origin">
+<h3>Происхождение</h3>
+<p>Зёрна кофе Arabica и&nbsp;Robusta, соответствующие международным стандартам качества.</p>
+</div>
 
-        <section id="services">
-            <h2>Наши услуги</h2>
-            <ul>
-                <li>Веб-разработка</li>
-                <li>Дизайн</li>
-                <li>Консультации</li>
-            </ul>
-        </section>
+<div class="flex-item">
+<img src="assets/icons/beans.png" alt="Bean Types">
+<h3>Типы зёрен</h3>
+<p>70% качества чашки кофе зависит от&nbsp;происхождения и&nbsp;качества зелёных зёрен.</p>
+</div>
 
-        <section id="contact">
-            <h2>Контакты</h2>
-            <p>Email: info@example.com</p>
-            <p>Телефон: +7 (123) 456-78-90</p>
-        </section>
-    </main>
+<div class="flex-item">
+<img src="assets/icons/quality.png" alt="Quality">
+<h3>Качество</h3>
+<p>Каждое кофейное зерно&nbsp;&mdash; это результат интенсивного процесса работы мастера кофе.</p>
+</div>
 
-    <footer>
-        <p>&copy; 2025 Сайт. Все права защищены.</p>
-    </footer>
+<div class="flex-item">
+<img src="assets/icons/brewing.png" alt="Brewing">
+<h3>Приготовление</h3>
+<p>Кофейные зёрна проходят тщательный и&nbsp;строгий процесс обжарки и&nbsp;помола.</p>
+</div>
+</div>
+</section>
+<section class="taste-section">
+<h2>СТАНДАРТ ВКУСА</h2>
+<h3>Выберите свой любимый вкус</h3>
+
+<div class="flex-container">
+<article class="coffee-card">
+<img src="assets/img/IMAGE.png" alt="Revo Morning">
+<h3>REVO Утренний</h3>
+<p>горький, сладкое послевкусие, цветочный аромат</p>
+<p class="price">99.000 ₫</p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+
+<article class="coffee-card">
+<img src="assets/img/IMAGE(2).png" alt="Revo Everyday">
+<h3>REVO Повседневный</h3>
+<p>сбалансированный, горькое послевкусие, вкус шоколада</p>
+<p class="price">85.000 ₫</p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+
+<article class="coffee-card">
+<img src="assets/img/image(1).png" alt="Revo Origin">
+<h3>REVO Оригинальный</h3>
+<p>сладкое послевкусие, небольшая горечь, кислинка клубники</p>
+<p class="price">139.000 ₫</p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+
+<article class="coffee-card">
+<img src="assets/img/IMAGE(3).png" alt="Rich">
+<h3>REVO Насыщенный</h3>
+<p>насыщенный, горький, традиционный</p>
+<p class="price">75.000 ₫</p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+</div>
+</section>
+<section class="giftset">
+<h2>Подарочный набор &laquo;Вьетнамский фильтр-кофе&raquo;</h2>
+<img src="assets/img/giftset.png" alt="Giftset">
+<div class="flex-container">
+<div class="flex-item">
+<p>Высота произрастания: 700&nbsp;&mdash; 800&nbsp;м</p>
+<p>Тип зёрен:Смесь Fine Robusta</p>
+<p class="price">285.000 ₫</p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</div>
+<div class="flex-item">
+<!-- Здесь будет изображение подарка -->
+<img src="assets/img/giftset.jpg" alt="Подарочный набор Вьетнамский фильтр-кофе">
+<p class="highlight">Идеально для подарка!</p>
+</div>
+</div>
+</section>
+<section class="combo-section">
+<h2>КОМБО НАБОРЫ ФИЛЬТР-КОФЕ</h2>
+<h3>Ваш индивидуальный кофе</h3>
+
+<div class="flex-container">
+<article class="combo-card">
+<h4>Комбо Revo Насыщенный</h4>
+<p>Содержание кофеина в&nbsp;Revo Насыщенный достаточно высокое, чтобы помочь вам сохранять бодрость на&nbsp;работе...</p>
+<p class="price">147.000 ₫ <span class="old-price">155.000 ₫</span></p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+
+<article class="combo-card">
+<h4>Комбо Revo Повседневный</h4>
+<p>Revo Повседневный представляет собой смесь горечи зёрен Robusta и&nbsp;аромата...</p>
+<p class="price">156.000 ₫ <span class="old-price">165.000 ₫</span></p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+
+<article class="combo-card">
+<h4>Комbo Revo Медовый</h4>
+<p>Название &laquo;Медовый&raquo; в&nbsp;Revo Honey происходит от&nbsp;метода обработки зёрен Arabica...</p>
+<p class="price">275.000 ₫ <span class="old-price">260.000 ₫</span></p>
+<button>КУПИТЬ СЕЙЧАС</button>
+<a href="#">ПОДРОБНЕЕ</a>
+</article>
+</div>
+</section>
+</main>
+
+<footer>
+<h3>Свяжитесь c&nbsp;нами</h3>
+<p>Revo Coffee Vietnam&nbsp;&mdash; Приносим чистый вкус кофе</p>
+<p>
+&copy;&nbsp;2018 Revo Coffee Vietnam. Все права защищены.
+</p>
+</footer>
 </body>
+
 </html>
