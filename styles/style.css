@@ -90,3 +90,75 @@ legend {
 input[type='file'] {
   max-width: 100%;
 }
+/* Блок: Section Base */
+.section-base {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+/* Элемент: Заголовок секции */
+.section-base__title {
+    font-size: 2.5rem;
+    color: #2c5530;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Элемент: Подзаголовок секции */
+.section-base__subtitle {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+/* Элемент: Контейнер для карточек */
+.section-base__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Блок: Feature Card (карточка-фича) */
+.feature-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Состояние hover для карточки */
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Элемент: Иконка в карточке */
+.feature-card__icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1.5rem;
+    object-fit: contain;
+}
+
+/* Элемент: Заголовок карточки */
+.feature-card__title {
+    font-size: 1.25rem;
+    color: #2c5530;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Элемент: Текст карточки */
+.feature-card__text {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
