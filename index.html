@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 1024px)">
 </head>
 <body>
     <header class="header">
-        <nav class="header__nav nav">
-            <div class="header__logo logo">
-                <img src="assets/img/LOGO.png" alt="Revo Coffee Logo">
-            </div>
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link" href="#hero">ГЛАВНАЯ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="#flavors">ВАШ КОФЕ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="#giftset">ПЕРСОНАЛЬНЫЙ КОФЕ</a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="#contact">КОНТАКТЫ</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <div class="header__inner">
+            <a href="#" class="logo">
+                <img src="assets/img/LOGO.png" alt="Revo Coffee Logo" width="120" height="40">
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+                <span class="menu-toggle_line"></span>
+                <span class="menu-toggle_line"></span>
+                <span class="menu-toggle_line"></span>
+            </button>
+            <nav class="nav" id="mainNav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#hero" class="nav_link active">Главная</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#flavors" class="nav_link">Ваш кофе</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#giftset" class="nav_link">Персональный кофе</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn btn--primary header__cta">Заказать</button>
+        </div>
+    </div>
+</header>
 
     <main>
         <section id="hero" class="section-base">
@@ -182,6 +194,8 @@
     <a href="#hero" class="back-to-top" title="Вернуться наверх">
         ↑
     </a>
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">↑</button>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
